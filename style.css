@@ -1,0 +1,283 @@
+body {
+  background-color: black;
+  color: azure;
+  /*margin: 20px;
+  padding: 5px;*/
+}
+
+img.template-apple {
+  margin: 0px;
+  width: 1320px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 660px 660px;
+  grid-template-rows: 743px 500px 660px 600px 650px;
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+}
+
+.imgDiv {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.div1 {
+  grid-column: 1/ 3;
+  grid-row: 2/3;
+  background-color: #17252a;
+  border-radius: 5px;
+  padding: 5px;
+}
+.whyImg {
+  position: relative;
+  top: 60px;
+  right: 40px;
+}
+.div1-Header {
+  position: relative;
+  bottom: 350px;
+  left: 805px;
+  color: #3aa7a9;
+  font-size: 30px;
+}
+.div1-para {
+  position: relative;
+  bottom: 300px;
+  left: 260px;
+  text-align: center;
+  color: #def2f1;
+  font-size: 50px;
+}
+.div1-link {
+  position: relative;
+  bottom: 250px;
+  left: 850px;
+  color: #feffff;
+  font-size: 25px;
+  text-decoration: none;
+}
+.arrow {
+  font-size: 25px;
+  position: relative;
+  top: 2px;
+  color: #feffff;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.showcasing-series6 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+  background-color: #24305e;
+}
+.SE6img {
+  position: relative;
+  top: 65px;
+  right: 200px;
+  width: 80%;
+  height: 80%;
+}
+.SE-header {
+  position: relative;
+  bottom: 400px;
+  left: 800px;
+}
+.watch {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  font-size: 35px;
+  color: #a8d0e6;
+}
+.model {
+  color: rgb(255, 0, 0);
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  left: 90px;
+}
+.SElogo {
+  position: relative;
+  bottom: 7px;
+  left: 10px;
+  width: 30px;
+  height: 40px;
+}
+.theFuture {
+  position: relative;
+  bottom: 450px;
+  left: 600px;
+  font-size: 70px;
+}
+.wrist {
+  position: relative;
+  left: 120px;
+}
+.money {
+  position: relative;
+  bottom: 540px;
+  left: 850px;
+  font-size: 25px;
+}
+.buy {
+  background-color: #a8d0e6;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  bottom: 530px;
+  left: 750px;
+}
+.buy:hover {
+  background-color: #656e92;
+}
+.div2-link {
+  position: relative;
+  bottom: 530px;
+  left: 850px;
+  color: #feffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.arrow2 {
+  font-size: 25px;
+  position: relative;
+  top: 2px;
+  color: #feffff;
+}
+.link2:hover {
+  text-decoration: underline;
+}
+
+.watchOS7 {
+  grid-column: 1/3;
+  grid-row: 4/5;
+  background-color: #2d283e;
+}
+.OS7img {
+  position: relative;
+  left: 350px;
+}
+.OS7-header {
+  position: relative;
+  top: -20px;
+  left: 610px;
+  font-size: 30px;
+}
+.difference {
+  position: relative;
+  top: -60px;
+  left: 330px;
+  font-size: 50px;
+  color: #def2f1;
+}
+.div3-link {
+  position: relative;
+  top: -70px;
+  left: 630px;
+  color: #feffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.arrow3 {
+  font-size: 25px;
+  position: relative;
+  top: 2px;
+  color: #feffff;
+}
+.link3:hover {
+  text-decoration: underline;
+}
+
+.watch-SE {
+  grid-column: 1/3;
+  grid-row: 5/6;
+  background-color: #ececec;
+}
+.SE-img {
+  height: 600px;
+  width: 600px;
+}
+.SE-header {
+  position: relative;
+  bottom: 480px;
+  left: 820px;
+  color: #f78888;
+  font-size: 40px;
+}
+.model2 {
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  left: 120px;
+}
+.logo {
+  position: relative;
+  top: 5px;
+  height: 50px;
+  width: 40px;
+}
+.heavy {
+  position: relative;
+  bottom: 560px;
+  left: 680px;
+  font-size: 70px;
+  color: #5da2d5;
+}
+.low {
+  position: relative;
+  left: 70px;
+}
+.price {
+  position: relative;
+  bottom: 600px;
+  left: 860px;
+  color: #f3d250;
+  font-size: 35px;
+}
+
+.div4-link {
+  position: relative;
+  bottom: 590px;
+  left: 930px;
+  color: #90ccf4;
+  font-size: 25px;
+  text-decoration: none;
+}
+.arrow4 {
+  font-size: 25px;
+  position: relative;
+  top: 2px;
+  color: #90ccf4;
+}
+.link4:hover {
+  text-decoration: underline;
+}
+.buy2 {
+  background-color: #a8d0e6;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  position: relative;
+  bottom: 590px;
+  left: 750px;
+}
+.buy2:hover {
+  background-color: #656e92;
+}
