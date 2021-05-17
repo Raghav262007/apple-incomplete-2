@@ -35,24 +35,29 @@ img.template-apple {
   right: 40px;
 }
 .div1-Header {
-  position: relative;
+  /* position: relative;
   bottom: 350px;
-  left: 805px;
+  left: 805px;*/
   color: #3aa7a9;
   font-size: 30px;
+  float: right;
+  text-align: center;
+  margin-right: 250px;
 }
 .div1-para {
-  position: relative;
+  /*position: relative;
   bottom: 300px;
-  left: 260px;
+  left: 260px;*/
   text-align: center;
+  margin-left: 550px;
+  transform: translateY(-240%);
   color: #def2f1;
   font-size: 50px;
 }
 .div1-link {
   position: relative;
   bottom: 250px;
-  left: 850px;
+  left: 855px;
   color: #feffff;
   font-size: 25px;
   text-decoration: none;
@@ -73,16 +78,23 @@ img.template-apple {
   background-color: #24305e;
 }
 .SE6img {
-  position: relative;
+  /* position: relative;
   top: 65px;
-  right: 200px;
+  right: 200px;*/
+  transform: translateX(-250px);
+  margin-right: 0px;
+  margin-top: 80px;
   width: 80%;
   height: 80%;
 }
-.SE-header {
-  position: relative;
+.SE6-header {
+  /*position: relative;
   bottom: 400px;
-  left: 800px;
+  left: 800px;*/
+  margin-right: 350px;
+  text-align: center;
+  float: right;
+  transform: translateY(-580px);
 }
 .watch {
   position: relative;
@@ -95,31 +107,38 @@ img.template-apple {
   color: rgb(255, 0, 0);
   font-size: 15px;
   text-align: center;
-  position: relative;
+  margin-left: 80px;
+  /*position: relative;
   bottom: 10px;
-  left: 90px;
+  left: 90px;*/
 }
-.SElogo {
-  position: relative;
-  bottom: 7px;
-  left: 10px;
+.SE6logo {
+  margin-right: 0px;
+  margin-bottom: 7px;
   width: 30px;
   height: 40px;
 }
 .theFuture {
-  position: relative;
+  /*position: relative;
   bottom: 450px;
-  left: 600px;
+  left: 600px;*/
+  text-align: center;
+  float: right;
+  transform: translateY(-600px);
+  margin-left: 300px;
+  margin-right: 90px;
   font-size: 70px;
 }
-.wrist {
-  position: relative;
-  left: 120px;
-}
+
 .money {
-  position: relative;
+  /*position: relative;
   bottom: 540px;
-  left: 850px;
+  left: 850px;*/
+  text-align: center;
+  float: right;
+  transform: translateY(-650px);
+  margin-left: 400px;
+  margin-right: 315px;
   font-size: 25px;
 }
 .buy {
@@ -133,16 +152,19 @@ img.template-apple {
   display: inline-block;
   font-size: 20px;
   position: relative;
-  bottom: 530px;
-  left: 750px;
+  bottom: 125px;
+  left: 700px;
+  /*transform: translateY(625px);
+  margin-left: 700px;
+  margin-right: 0px;*/
 }
 .buy:hover {
   background-color: #656e92;
 }
 .div2-link {
   position: relative;
-  bottom: 530px;
-  left: 850px;
+  bottom: 125px;
+  left: 890px;
   color: #feffff;
   font-size: 20px;
   text-decoration: none;
@@ -167,30 +189,37 @@ img.template-apple {
   left: 350px;
 }
 .OS7-header {
-  position: relative;
+  /*position: relative;
   top: -20px;
-  left: 610px;
+  left: 610px;*/
+  margin-top: -20px;
+  margin-left: 60px;
   font-size: 30px;
+  text-align: center;
 }
 .difference {
-  position: relative;
+  /*position: relative;
   top: -60px;
-  left: 330px;
+  left: 330px;*/
+  text-align: center;
+  margin-left: 30px;
+  margin-top: -10px;
   font-size: 50px;
   color: #def2f1;
 }
 .div3-link {
-  position: relative;
+  /*position: relative;
   top: -70px;
-  left: 630px;
+  left: 630px;*/
   color: #feffff;
   font-size: 20px;
   text-decoration: none;
+  margin-left: 630px;
 }
 .arrow3 {
   font-size: 25px;
   position: relative;
-  top: 2px;
+  top: 3px;
   color: #feffff;
 }
 .link3:hover {
@@ -207,11 +236,14 @@ img.template-apple {
   width: 600px;
 }
 .SE-header {
-  position: relative;
+  /*position: relative;
   bottom: 480px;
-  left: 820px;
+  left: 820px;*/
   color: white;
   font-size: 40px;
+  float: right;
+  margin-top: 100px;
+  margin-right: 300px;
 }
 .model2 {
   color: rgb(255, 0, 0);
@@ -228,31 +260,40 @@ img.template-apple {
   width: 40px;
 }
 .heavy {
-  position: relative;
+  /*position: relative;
   bottom: 560px;
-  left: 680px;
+  left: 680px;*/
   font-size: 70px;
   color: #5da2d5;
+  float: right;
+  margin-right: 125px;
+  transform: translateY(-480px);
 }
 .low {
   position: relative;
   left: 70px;
 }
 .price {
-  position: relative;
+  /*position: relative;
   bottom: 600px;
-  left: 860px;
+  left: 860px;*/
   color: #f3d250;
   font-size: 35px;
+  transform: translateY(-250px);
+  margin-right: -360px;
+  float: right;
 }
 
 .div4-link {
-  position: relative;
+  /*position: relative;
   bottom: 590px;
-  left: 930px;
+  left: 30px;*/
   color: #90ccf4;
   font-size: 25px;
   text-decoration: none;
+  float: right;
+  margin-top: -125px;
+  margin-right: -165px;
 }
 .arrow4 {
   font-size: 25px;
@@ -274,10 +315,9 @@ img.template-apple {
   display: inline-block;
   font-size: 20px;
   position: relative;
-  bottom: 590px;
-  left: 750px;
+  bottom: 80px;
+  left: 450px;
 }
 .buy2:hover {
   background-color: #656e92;
 }
-
